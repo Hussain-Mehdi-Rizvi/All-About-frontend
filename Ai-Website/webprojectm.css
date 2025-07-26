@@ -1,0 +1,280 @@
+/* top links */
+ul {
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: sticky
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+}
+
+li a:active:not(.active) {
+    color: red;
+    background-color: #3333332d;
+}
+
+.active {
+    background-color: rgba(255, 0, 0, 0.301);
+    color: white;
+}
+
+/* everthing */
+body {
+    background-color: white;
+}
+
+/* grid */
+.containerr{
+   margin-left: 50px;
+   margin-top: 70px;   
+}
+.grid {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin-left: 10px;  
+    font-size: 25px;
+}
+
+/* always remeber to rlate text and image use postion absolute */
+.toph {
+    position: absolute
+}
+
+.toph {
+    margin-left: 800px;
+    margin-right: 150px;
+    margin-top: -260px;
+    font-size: 90px;
+    color: white;
+}
+
+/* defination bar */
+.defination {
+    border: 1px solid #3333332d;
+    border-radius: 5px 5px 5px;
+    height: 230px;
+    width: 600px;
+    margin-left: 50px;
+    font-size: 30px;
+    background-color: white;
+}
+
+.defination:hover {
+    color: red;
+    background-color: gainsboro;
+}
+
+/* backgroung image */
+body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+}
+
+/* navbar */
+.navbar {
+    top: 0;
+    position: sticky;
+}
+
+.heading {
+    font-size: 60px;
+    border: 2px solid black;
+    text-align: center;
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 60px;
+    border-radius: 50px;
+    color: blue;
+    background-color: gainsboro;
+}
+
+.heading:hover {
+    color: red;
+    background-color: white;
+}
+
+.typeheading {
+    font-size: 70px;
+    color: white;
+    background-color: blue;
+    padding: 10px 3px;
+    width: 350px;
+}
+
+.typeheading:hover {
+    color: blue;
+    background-color: white;
+}
+
+/* new chnage in headings */
+.newchange {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.688);
+    padding: 3px 2px;
+}
+
+.types {
+    border: 1px solid #3333332d;
+    border-radius: 5px 5px 5px;
+    height: 230px;
+    width: 800px;
+    margin-left: 50px;
+    font-size: 25px;
+    background-color: white;
+}
+
+.types:hover {
+    color: red;
+    background-color: gainsboro;
+}
+
+/* hidden  hidden drop down */
+.Ali {
+    position: relative;
+    display: inline-block;
+}
+
+.Hassan {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    margin-left: 55px;
+    background-color: red;
+}
+
+.Hussainali {
+    display: none;
+    top: 100%;
+    left: 0;
+    color: black;
+    padding: 10px;
+    border: 1 px solid;
+    width: 690px;
+    box-shadow: 8px 8px 8px;
+    font-size: 25px;
+    margin-left: 60px;
+    background-color: white;
+}
+
+.Hussainali:hover {
+    color: red;
+}
+
+.Ali:hover .Hussainali {
+    display: block;
+}
+
+/* table */
+
+table,
+th,
+td,
+tr {
+    border: 2px solid black;
+    font-size: 25px;
+    border-collapse: collapse;
+    background-color: rgba(220, 220, 220, 0.27);
+}
+
+td:hover {
+    color: blue;
+    background-color: gainsboro;
+}
+
+th {
+    background-color: rgba(0, 0, 255, 0.541);
+    color: gainsboro;
+}
+
+th:hover {
+    color: red;
+    background-color: gainsboro;
+}
+
+table {
+    width: 900px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+/* two heading */
+.twoheading {
+    color: blue;
+    margin-top: 350px;
+    margin-left: 350px;
+    border: 1px solid gainsboro;
+    width: 700px;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+
+.twoheading:hover {
+    color: red;
+    background-color: white;
+}
+
+#ali {
+    background-image: url(last\ background.PNG);
+}
+
+.last {
+    color: white;
+    margin-left: 400px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.last:hover {
+    color: red;
+}
+
+#alii a {
+    color: white;
+    margin-left: 40px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#alii a:hover {
+    color: red;
+}
+
+#alii1 a {
+    color: white;
+    margin-left: 40px;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#alii1 a:hover {
+    color: red;
+}
